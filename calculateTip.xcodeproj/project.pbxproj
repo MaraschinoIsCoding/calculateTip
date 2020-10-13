@@ -15,6 +15,8 @@
 		D8A30B2725351D7700183C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A30B2525351D7700183C4F /* LaunchScreen.storyboard */; };
 		D8A30B3225351D7700183C4F /* calculateTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A30B3125351D7700183C4F /* calculateTipTests.swift */; };
 		D8A30B3D25351D7700183C4F /* calculateTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A30B3C25351D7700183C4F /* calculateTipUITests.swift */; };
+		D8A30B4E25353FA100183C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A30B1E25351D7300183C4F /* ViewController.swift */; };
+		D8A30B4F25353FA100183C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A30B1E25351D7300183C4F /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,11 +103,11 @@
 			children = (
 				D8A30B1A25351D7300183C4F /* AppDelegate.swift */,
 				D8A30B1C25351D7300183C4F /* SceneDelegate.swift */,
-				D8A30B1E25351D7300183C4F /* ViewController.swift */,
 				D8A30B2025351D7300183C4F /* Main.storyboard */,
 				D8A30B2325351D7700183C4F /* Assets.xcassets */,
 				D8A30B2525351D7700183C4F /* LaunchScreen.storyboard */,
 				D8A30B2825351D7700183C4F /* Info.plist */,
+				D8A30B1E25351D7300183C4F /* ViewController.swift */,
 			);
 			path = calculateTip;
 			sourceTree = "<group>";
@@ -269,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A30B4E25353FA100183C4F /* ViewController.swift in Sources */,
 				D8A30B3225351D7700183C4F /* calculateTipTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A30B4F25353FA100183C4F /* ViewController.swift in Sources */,
 				D8A30B3D25351D7700183C4F /* calculateTipUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
